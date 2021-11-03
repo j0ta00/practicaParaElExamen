@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <Spinner
+        android:id="@+id/spnItems"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"></Spinner>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <Button
+    android:id="@+id/btnLsv"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Click here"></Button>
+
+<ListView
+    android:id="@+id/lsvItems"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"></ListView>
+    </LinearLayout>
+</LinearLayout>
